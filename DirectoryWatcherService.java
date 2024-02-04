@@ -29,7 +29,7 @@ public class DirectoryWatcherService implements Runnable {
                         client.processPropertiesFile(filePath, regexFilter);
                     }
                 }
-                //key.reset();
+                key.reset();
             }
         } catch (Exception e) {
             e.printStackTrace();
